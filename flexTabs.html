@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .list {
+        display: flex;
+        border: 2px solid white;
+      }
+      .list li {
+        background: #38ac8f;
+        padding: 15px 20px;
+        border-right: 0.5px solid white;
+        list-style: none;
+      }
+      .list li :last-child {
+        border-right: 0px;
+      }
+      .list li a {
+        text-decoration: none;
+        color: white;
+      }
+      .list li:hover {
+        background-color: #1c5849;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Style link: making identical clicable tabs using flex</h1>
+    <ul class="list">
+      <li><a href="">Home</a></li>
+      <li><a href="">About Us</a></li>
+      <li><a href="">Services</a></li>
+      <li><a href="">Product</a></li>
+      <li><a href="">Contact US</a></li>
+    </ul>
+  </body>
+</html>

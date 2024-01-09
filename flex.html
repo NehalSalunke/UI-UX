@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .div1 {
+        background-color: yellow;
+        display: flex;
+        justify-content: space-between /*pace-between | flex-end | flex-centre | centre*/;
+        /* height: 500px; */
+        flex-wrap: wrap;
+        flex-direction: row;
+        /* justify-content: center; */
+        /* flex-direction: row; |row | col-reverse | col */
+        align-items: stretch /* centre*/;
+        /* align-content: center; */
+        margin: 20px;
+      }
+      .div2 {
+        /* float: left; */
+        background-color: rgb(135, 135, 236);
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        font-size: 30px;
+        text-align: center;
+        line-height: 93px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The flex-direction Properly</h1>
+    <div>The "flex direction: row" stacks flex items horizontally</div>
+    <div class="div1">
+      <div class="div2">1</div>
+      <div class="div2">2</div>
+      <div class="div2">3</div>
+    </div>
+    <div class="div1">
+      <div class="div2" style="order: 3">1</div>
+      <div class="div2" style="order: 1">2</div>
+      <div class="div2" style="order: 4">3</div>
+      <div class="div2" style="order: 2">4</div>
+    </div>
+  </body>
+</html>

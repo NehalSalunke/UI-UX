@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        font-size: 16px;
+      }
+      /* 1 rem = 16px*/
+      .title1 {
+        font-size: 3rem;
+      }
+      .title2 {
+        font-size: 1rem;
+      }
+      /*  em example below ---> 
+          em unit size of title class having parent class card 1, will depend upon its parent class font size
+          ex. title class with size 3em and card1 with size 20px. will display 20*3px size for title class content*/
+      .card1 {
+        font-size: 20px;
+      }
+      .card2 {
+        font-size: 10px;
+      }
+      .title {
+        font-size: 3em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title1">Heading 1</h1>
+    <h1 class="title2">Heading 2</h1>
+    <h1 class="title3">Heading 3</h1>
+    <h1 class="title4">Heading 4</h1>
+
+    <div class="card1">
+      <div class="title">Heading next 1</div>
+    </div>
+    <div class="card">
+      <div class="title">Heading next 2</div>
+    </div>
+  </body>
+</html>

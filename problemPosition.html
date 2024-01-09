@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .test {
+        display: inline-block;
+        height: 500px;
+        width: 500px;
+        border: 2px solid black;
+        position: relative;
+      }
+      .square {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+        border: 1px solid black;
+        /* margin-left: -50px;
+        margin-top: -50px; */
+        transform: translate(-50px -50px);
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor eos
+      facilis placeat ipsa architecto, fuga adipisci ducimus? Dolores modi dicta
+      natus tempora ipsum, voluptas dignissimos. Quisquam cum dolores animi,
+      aperiam veniam culpa eius odio?
+    </p>
+    <div class="test">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dolorum
+      dicta adipisci beatae eaque earum debitis? Ipsa aut ipsum explicabo
+      debitis ut vel perferendis nihil ad temporibus accusantium sed, aliquam
+      laudantium repudiandae nobis necessitatibus quo?
+      <div class="square"></div>
+    </div>
+  </body>
+</html>

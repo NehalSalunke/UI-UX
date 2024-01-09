@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flex-container {
+        display: flex;
+        align-items: stretch;
+        background-color: rgb(216, 214, 214);
+      }
+      .flex-container > div {
+        background-color: bisque;
+        color: black;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div style="flex-grow: 4">Lorem, ipsum.</div>
+      <div style="flex-grow: 3">Lorem, ipsum.</div>
+      <div style="flex-grow: 2">Lorem, ipsum.</div>
+    </div>
+  </body>
+</html>
